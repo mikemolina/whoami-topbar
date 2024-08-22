@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="whoami-topbar@mikemolina.github.io">
+  <enum id="org.gnome.shell.extensions.whoami-topbar.enum-alignment">
+    <value value="0" nick="left"/>
+    <value value="1" nick="center"/>
+    <value value="2" nick="right"/>
+  </enum>
+  <schema id="org.gnome.shell.extensions.whoami-topbar" path="/org/gnome/shell/extensions/whoami-topbar/">
+    <key name="button-alignment" enum="org.gnome.shell.extensions.whoami-topbar.enum-alignment">
+      <default>'left'</default>
+      <summary>Alignment in the panel</summary>
+      <description>Sets the alignment of the extension on the panel.</description>
+    </key>
+    <key name="button-position" type="i">
+      <default>0</default>
+      <summary>Position in the panel</summary>
+      <description>Sets the position of the extension relative to another.</description>
+    </key>
+    <key type="b" name="activate-custom-style">
+      <default>false</default>
+      <summary>Activate custom style</summary>
+      <description>This allow to choose between a normal style or custom style for the extension.</description>
+    </key>
+  </schema>
+</schemalist>
