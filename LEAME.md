@@ -1,3 +1,7 @@
+| **`Actividad`** | **`Versión`** | **`Lenguaje`** | **`Licencia`** |
+|:---------------:|:-------------:|:--------------:|:--------------:|
+|![GitHub last commit](https://img.shields.io/github/last-commit/mikemolina/whoami-topbar)|![GitHub Tag](https://img.shields.io/github/v/tag/mikemolina/whoami-topbar)|![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)|![Static Badge](https://img.shields.io/badge/GPL_v3-blue?color=bd0000)|
+
 # Whoami (comando de Linux) en el panel superior
 La extensión **GNOME Shell Whoami en el panel superior** muestra la salida del
 comando `whoami` con un estilo personalizado. `whoami` es un comando simple el
