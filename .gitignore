@@ -1,0 +1,7 @@
+*gschemas.compiled
+*.zip
+*.tar.xz
+*.tar.xz.sha256
+*.mo
+*~
+
