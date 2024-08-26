@@ -18,6 +18,11 @@ instalado por defecto en la gran variedad de distribuciones Linux.
 La extensión **GNOME Shell Whoami en el panel superior** requiere
 `GNOME Shell` con versión 45 o superior.
 
+### Compatibilidad
+Actualmente, la extensión **GNOME Shell Whoami en el panel superior**
+ha sido probada con éxito en Ubuntu Noble (24.04) y Manjaro Wynsdey
+(24.0.6).
+
 ### Desde el código fuente
 Puede descargar o clonar el repositorio del código fuente a través de la terminal
 usando herramientas usuales de desarrollo (git, make, gettext):

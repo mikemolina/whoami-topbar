@@ -18,6 +18,10 @@ variety of Linux distributions.
 **Whoami in top bar GNOME Shell** extension requires `GNOME Shell` with version 45
 or higher.
 
+### Compatibility
+Currently, **Whoami in top bar GNOME Shell** extension has been successfully
+tested in Ubuntu Noble (24.04) and Manjaro Wynsdey (24.0.6).
+
 ### From source code
 You can download or clone the source code from repository via terminal using
 common development tools (git, make, gettext):
