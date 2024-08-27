@@ -98,9 +98,9 @@ class WhoamiButton extends PanelMenu.Button {
     CreateButton() {
 	// * * * Extension backend: query whoami command * * *
 	let username = "";
-	let [res_bool, stdout, stderr, status] = GLib.spawn_command_line_sync("whoami");
+	let stdout = GLib.get_user_name();
 	if( stdout.length > 0) {
-	    username = new TextDecoder().decode(stdout);
+	    username = stdout;
 	    username = username.replace('\n', '');
 	} else {
 	    username = "None name";
