@@ -1,3 +1,10 @@
+## Version 1.1
+[2024-08-27]
+
+* Review for GNOME Shell Extensions.
+* Removed const for name schema file.
+* GLib.spawn_command_line_sync substituted by GLib.get_user_name.
+
 ## Version 1.0
 [2024-08-17]
 
