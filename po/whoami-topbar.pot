@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: whoami-topbar 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-07 20:37-0500\n"
+"POT-Creation-Date: 2024-08-27 01:02-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,13 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. TRANSLATOR_NOTE: %s for string metadata name
-#: ../src/extension.js:52
+#: ../src/extension.js:50
 #, javascript-format
 msgid "Enabling %s extension"
 msgstr ""
 
 #. TRANSLATOR_NOTE: %s for string metadata name
-#: ../src/extension.js:65
+#: ../src/extension.js:63
 #, javascript-format
 msgid "Disabling %s extension"
 msgstr ""

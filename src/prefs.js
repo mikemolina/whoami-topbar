@@ -28,8 +28,6 @@ import {
 import { SecSettings } from './preferences/SecSettings.js';
 import { SecAbout } from './preferences/SecAbout.js';
 
-const schema = "org.gnome.shell.extensions.whoami-topbar";   /**< Name schema file */
-
 
 /**
  * Class WhoamiTopBarPreferences.
@@ -51,10 +49,16 @@ export default class WhoamiTopBarPreferences extends ExtensionPreferences {
      */
     fillPreferencesWindow(window) {
 	// Extension Settings Section
-	const sec_Settings = new SecSettings(this.metadata, this.getSettings(schema));
+	const sec_Settings = new SecSettings(
+	    this.metadata,
+	    this.getSettings("org.gnome.shell.extensions.whoami-topbar")
+	);
         window.add(sec_Settings);
 	// About Extension Section
-	const sec_About = new  SecAbout(this.metadata, this.getSettings(schema));
+	const sec_About = new  SecAbout(
+	    this.metadata,
+	    this.getSettings("org.gnome.shell.extensions.whoami-topbar")
+	);
         window.add(sec_About);
     }
 }

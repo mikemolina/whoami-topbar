@@ -27,8 +27,6 @@ import {
 import { WhoamiButton } from './WhoamiButton.js';
 import { ShowDebug } from './MsgDebug.js';
 
-const schema = "org.gnome.shell.extensions.whoami-topbar";   /**< Name schema file */
-
 
 /**
  * Class WhoamiExtension.
@@ -53,7 +51,7 @@ export default class WhoamiExtension extends Extension {
 	this.whoamiText = new WhoamiButton(
 	    this.uuid,
 	    this.metadata,
-	    this.getSettings(schema)
+	    this.getSettings("org.gnome.shell.extensions.whoami-topbar")
 	);
     }
     
