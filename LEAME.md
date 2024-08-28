@@ -3,18 +3,14 @@
 |![GitHub last commit](https://img.shields.io/github/last-commit/mikemolina/whoami-topbar)|![GitHub Tag](https://img.shields.io/github/v/tag/mikemolina/whoami-topbar)|![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)|![Static Badge](https://img.shields.io/badge/GPL_v3-blue?color=bd0000)|
 
 # Whoami (comando de Linux) en el panel superior
-La extensión **GNOME Shell Whoami en el panel superior** muestra la salida del
-comando `whoami` con un estilo personalizado. `whoami` es un comando simple el
-cual muestra el identificador del usuario actual.
+La extensión **Whoami en la barra superior de GNOME Shell** muestra el ID del
+usuario actual, igual que la salida del comando `whoami`, con un estilo
+personalizado en la barra superior.
 
 ![](imgs/whoami-topbar-Alignment-wvga.png "Whoami en el panel superior")
 
 ## Instalación
 ### Dependencias
-La extensión requiere del comando `whoami` el cual está incluido en el paquete
-_Coreutils_ (Herramientas básicas de GNU). _Coreutils_ es un paquete esencial
-instalado por defecto en la gran variedad de distribuciones Linux.
-
 La extensión **GNOME Shell Whoami en el panel superior** requiere
 `GNOME Shell` con versión 45 o superior.
 
@@ -95,11 +91,14 @@ realiza en unos pocos pasos:
 4. Reiniciar la extensión y desde el gestor de extensiones activar el switch de
    personalización.
    
-   ![](imgs/whoami-topbar-Preferences.png "Ventana de preferencias")
+   ![](imgs/whoami-topbar-Preferences-es.png "Ventana de preferencias")
 
 ## Como traducir
 Es recomendable clonar el repositorio y navegar hacia el directorio descargado
 para realizar modificaciones relacionadas con traducciones.
+
+Actualmente, la extensión cuenta con traducciones para inglés, francés y portugués
+(Brasil). Aportes y correcciones son _Bienvenidos_.
 
 ### Actualizar la plantilla de traducciones
 Si existen cadenas de texto modificadas/agregadas en alguno de los archivos `*.js`

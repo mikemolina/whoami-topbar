@@ -3,18 +3,13 @@
 |![GitHub last commit](https://img.shields.io/github/last-commit/mikemolina/whoami-topbar)|![GitHub Tag](https://img.shields.io/github/v/tag/mikemolina/whoami-topbar)|![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)|![Static Badge](https://img.shields.io/badge/GPL_v3-blue?color=bd0000)|
 
 # Whoami in top bar
-The **Whoami in top bar GNOME Shell** extension displays the output of the
-`whoami` command with a custom style. `whoami` is a simple command that displays
-the current user ID.
+The **Whoami in top bar GNOME Shell** extension displays the current user ID, same
+as output of the `whoami` command, with a custom style in top bar.
 
 ![](imgs/whoami-topbar-Alignment-wvga.png "Whoami in top bar")
 
 ## Install
 ### Dependencies
-The extension requires the `whoami` command which is included in the _Coreutils_
-package. _Coreutils_ is an essential package installed by default on a wide
-variety of Linux distributions.
-
 **Whoami in top bar GNOME Shell** extension requires `GNOME Shell` with version 45
 or higher.
 
@@ -98,6 +93,9 @@ steps:
 ## How to translate
 It is recommended to clone the repository and navigate to the downloaded directory
 to make modifications related with translations.
+
+The extension currently has translations for spanish, french and portuguese
+(Brazil). Contributions and corrections are _Welcome_.
 
 ### Update the translation template
 If there are modified/added text strings in any of the `*.js` files, it is

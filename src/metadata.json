@@ -1,7 +1,7 @@
 {
     "name": "Whoami in top bar",
     "uuid": "whoami-topbar@mikemolina.github.io",
-    "description": "Show the effective user id in the top bar returned by whoami command.",
+    "description": "Show the effective user ID in the top bar samely as returned by whoami command.",
     "url": "https://github.com/mikemolina/whoami-topbar",
     "settings-schema": "org.gnome.shell.extensions.whoami-topbar",
     "gettext-domain": "whoami-topbar@mikemolina.github.io",
@@ -9,5 +9,5 @@
 	"45", "46"
     ],
     "debug": false,
-    "version-name": "1.1"
+    "version-name": "2.0"
 }
