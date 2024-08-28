@@ -1,9 +1,18 @@
+## Version 2.0
+[2024-08-28]
+
+* Approval (Activation) for GNOME Shell Extensions!!
+* The description is re-adjusted according to query mode for to find user ID: same
+  spirit of the command whoami.
+* Descriptions in files README.md/LEAME.md also were re-adjusted.
+
 ## Version 1.1
 [2024-08-27]
 
 * Review for GNOME Shell Extensions.
 * Removed const for name schema file.
-* GLib.spawn_command_line_sync substituted by GLib.get_user_name.
+* GLib.spawn_command_line_sync substituted by GLib.get_user_name for to find user
+  ID.
 
 ## Version 1.0
 [2024-08-17]

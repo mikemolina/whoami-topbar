@@ -5,7 +5,7 @@
 prefix ?= ~/.local
 extname = whoami-topbar
 pkgname = $(extname)
-pkgversion = 1.1
+pkgversion = 2.0
 pkgdist = $(pkgname)-$(pkgversion)
 pkgtarball = $(addsuffix .tar.xz,$(pkgdist))
 pkgtarballsum = $(addsuffix .sha256,$(pkgtarball))
