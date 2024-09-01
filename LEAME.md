@@ -19,6 +19,13 @@ Actualmente, la extensión **GNOME Shell Whoami en el panel superior**
 ha sido probada con éxito en Ubuntu Noble (24.04) y Manjaro Wynsdey
 (24.0.6).
 
+### Desde la página GNOME Shell Extensions
+Visite la página [GNOME Shell
+Extensions](https://extensions.gnome.org/extension/7260/whoami-in-top-bar/)
+para una instalación directa.
+
+[<img src="https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/master/get-it-on-ego.svg" width="200">](https://extensions.gnome.org/extension/7260/whoami-in-top-bar/)
+
 ### Desde el código fuente
 Puede descargar o clonar el repositorio del código fuente a través de la terminal
 usando herramientas usuales de desarrollo (git, make, gettext):

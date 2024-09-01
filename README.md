@@ -17,6 +17,13 @@ or higher.
 Currently, **Whoami in top bar GNOME Shell** extension has been successfully
 tested in Ubuntu Noble (24.04) and Manjaro Wynsdey (24.0.6).
 
+### From GNOME Shell Extensions page
+Visit the [GNOME Shell
+Extensions](https://extensions.gnome.org/extension/7260/whoami-in-top-bar/) page
+for an installation direct.
+
+[<img src="https://raw.githubusercontent.com/andyholmes/gnome-shell-extensions-badge/master/get-it-on-ego.svg" width="200">](https://extensions.gnome.org/extension/7260/whoami-in-top-bar/)
+
 ### From source code
 You can download or clone the source code from repository via terminal using
 common development tools (git, make, gettext):
