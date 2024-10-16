@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: whoami-topbar 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-27 01:02-0500\n"
-"PO-Revision-Date: 2024-08-07 20:49-0500\n"
+"POT-Creation-Date: 2024-10-06 23:58-0500\n"
+"PO-Revision-Date: 2024-10-06 21:13-0500\n"
 "Last-Translator: Miguel Molina <mmolina.unphysics@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -62,42 +62,46 @@ msgid "About"
 msgstr "Acerca de"
 
 #: ../src/preferences/SecAbout.js:68
-msgid "Show the effective user id in the top bar returned by whoami command."
-msgstr "Muestra el ID efectivo del usuario en el panel superior devuelto por el comando whoami."
+msgid "Show the effective user ID in the top bar"
+msgstr "Muestra el ID del usuario actual en la barra superior"
 
-#: ../src/preferences/SecAbout.js:76
+#: ../src/preferences/SecAbout.js:70
+msgid "samely as returned by whoami command."
+msgstr "igual que la salida del comando whoami."
+
+#: ../src/preferences/SecAbout.js:79
 msgid "Unknown"
 msgstr "Desconocida"
 
-#: ../src/preferences/SecAbout.js:78
+#: ../src/preferences/SecAbout.js:81
 msgid "Whoami Extension version"
 msgstr "Versión de la Extensión Whoami"
 
-#: ../src/preferences/SecAbout.js:88
+#: ../src/preferences/SecAbout.js:91
 msgid "GNOME Shell version"
 msgstr "Versión GNOME Shell"
 
-#: ../src/preferences/SecAbout.js:98
+#: ../src/preferences/SecAbout.js:101
 msgid "Developer"
 msgstr "Desarrollador"
 
-#: ../src/preferences/SecAbout.js:99
+#: ../src/preferences/SecAbout.js:102
 msgid "View in GitHub"
 msgstr "Ver en GitHub"
 
-#: ../src/preferences/SecAbout.js:120
+#: ../src/preferences/SecAbout.js:123
 msgid "This program comes with ABSOLUTELY NO WARRANTY."
 msgstr "Este programa se ofrece SIN NINGUNA GARANTÍA."
 
-#: ../src/preferences/SecAbout.js:122
+#: ../src/preferences/SecAbout.js:125
 msgid "See the"
 msgstr "Ver la"
 
-#: ../src/preferences/SecAbout.js:124
+#: ../src/preferences/SecAbout.js:127
 msgid "GNU General Public License, version 3 or later"
 msgstr "GNU General Public License, versión 3 o posterior"
 
-#: ../src/preferences/SecAbout.js:126
+#: ../src/preferences/SecAbout.js:129
 msgid "for details."
 msgstr "para detalles"
 

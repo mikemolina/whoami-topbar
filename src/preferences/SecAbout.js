@@ -65,10 +65,13 @@ class SecAbout extends Adw.PreferencesPage {
 	});
 	// Extension description
 	const WhoamiExtensionDescription = new Gtk.Label({
-	    label: _("Show the effective user id in the top bar returned by whoami command."),
+	    label: _("Show the effective user ID in the top bar") +
+		"\n" +
+		_("samely as returned by whoami command."),
 	    margin_bottom: 3,
 	    hexpand: false,
-	    vexpand: false
+	    vexpand: false,
+	    justify: Gtk.Justification.CENTER
 	});	
 	// Layout Group
 	const InfoGroup = new Adw.PreferencesGroup();
