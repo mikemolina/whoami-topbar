@@ -1,3 +1,10 @@
+## Version 3.0
+[2024-10-15]
+
+* Adjustments to the text layout for the description, in the About section of the
+  preferences window.
+* Added Gnome 46.3.1 to shell-version.
+
 ## Version 2.0
 [2024-08-28]
 
