@@ -15,7 +15,11 @@ or higher.
 
 ### Compatibility
 Currently, **Whoami in top bar GNOME Shell** extension has been successfully
-tested in Ubuntu Noble (24.04) and Manjaro Wynsdey (24.0.6).
+tested in:
+
+* Ubuntu Noble (24.04)
+* Manjaro Wynsdey (24.0.6)
+* Manjaro Yonada (24.2.0)
 
 ### From GNOME Shell Extensions page
 Visit the [GNOME Shell
