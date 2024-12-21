@@ -1,3 +1,8 @@
+## Version 4.0
+[2024-12-21]
+
+* Added Gnome 47 to shell-version.
+
 ## Version 3.0
 [2024-10-15]
 
