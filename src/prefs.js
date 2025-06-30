@@ -21,6 +21,8 @@
  */
 
 import Gio from 'gi://Gio';
+import Gdk from "gi://Gdk";
+import Gtk from "gi://Gtk";
 import {
     ExtensionPreferences,
     gettext as _
@@ -48,6 +50,11 @@ export default class WhoamiTopBarPreferences extends ExtensionPreferences {
      * @param window Preferences window
      */
     fillPreferencesWindow(window) {
+	// Icon theme object associated
+	let iconTheme = Gtk.IconTheme.get_for_display(Gdk.Display.get_default());
+	if( !iconTheme.get_search_path().includes(this.metadata.path + "/images") ) {
+	    iconTheme.add_search_path(this.metadata.path + "/images");
+	}
 	// Extension Settings Section
 	const sec_Settings = new SecSettings(
 	    this.metadata,

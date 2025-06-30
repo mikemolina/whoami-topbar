@@ -55,6 +55,12 @@ class SecAbout extends Adw.PreferencesPage {
 	    hexpand: false,
 	    vexpand: false
 	});
+	// Extension logo
+	const WhoamiExtensionLogo = new Gtk.Image({
+	    icon_name: "whoami_logo",
+	    margin_bottom: 5,
+	    pixel_size: 128
+	});
 	// Extension title
 	const WhoamiExtensionTitle = new Gtk.Label({
 	    label: '<span size="x-large" background="#003366" foreground="#DEDDDA"><b>Whoami Extension</b></span>',
@@ -108,7 +114,21 @@ class SecAbout extends Adw.PreferencesPage {
 		hexpand: false,
 		vexpand: false
 	    })
-	);	
+	);
+	// Extension bug report
+	const URLBugReport = "<a href=\"https://github.com/mikemolina/whoami-topbar/issues\">%s</a>";
+	const WhoamiExtensionBugReport = new Adw.ActionRow({
+	    title: _("Report bugs and new features"),
+	    tooltip_text: _("Report in GitHub")
+	});
+	WhoamiExtensionBugReport.add_suffix(
+	    new Gtk.Label({
+		label: "%s".format(URLBugReport.format("GitHub")),
+		use_markup: true,
+		hexpand: false,
+		vexpand: false
+	    })
+	);
 	// Layout Group
 	const LicenseGroup = new Adw.PreferencesGroup();
 	// Layout Box
@@ -134,6 +154,7 @@ class SecAbout extends Adw.PreferencesPage {
 	    justify: Gtk.Justification.CENTER,
 	});
 	// Layout About Extension Section
+	AboutBox.append(WhoamiExtensionLogo);
 	AboutBox.append(WhoamiExtensionTitle);
 	AboutBox.append(WhoamiExtensionDescription);
 	AboutGroup.add(AboutBox);
@@ -141,6 +162,7 @@ class SecAbout extends Adw.PreferencesPage {
 	InfoGroup.add(WhoamiExtensionVersion);
 	InfoGroup.add(WhoamiExtensionSupport);
 	InfoGroup.add(WhoamiExtensionAuthor);
+	InfoGroup.add(WhoamiExtensionBugReport);
 	this.add(InfoGroup);
 	LicenseBox.append(LicenseLabel);
 	LicenseGroup.add(LicenseBox);
