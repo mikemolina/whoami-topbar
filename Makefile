@@ -5,7 +5,7 @@
 prefix ?= ~/.local
 extname = whoami-topbar
 pkgname = $(extname)
-pkgversion = 4.0
+pkgversion = 5.0
 pkgdist = $(pkgname)-$(pkgversion)
 pkgtarball = $(addsuffix .tar.xz,$(pkgdist))
 pkgtarballsum = $(addsuffix .sha256,$(pkgtarball))
@@ -27,6 +27,7 @@ datadir = $(prefix)/share
 gsedatadir = $(datadir)/gnome-shell/extensions
 GNOME_EXTDIR = $(gsedatadir)/$(UUID)
 PREFSDIR = $(GNOME_EXTDIR)/preferences
+IMAGESDIR = $(GNOME_EXTDIR)/images
 ifeq ($(PLACEINSTALL),local)
 SCHEMASDIR = $(GNOME_EXTDIR)/schemas
 LOCALEDIR = $(GNOME_EXTDIR)/locale
@@ -39,6 +40,8 @@ endif
 MODFILES = extension.js prefs.js MsgDebug.js WhoamiButton.js
 # Preferences files
 PREFSFILES = SecAbout.js SecSettings.js
+# Images files
+IMAGESFILES = whoami_logo.svg
 # Extension files
 EXTNFILES = metadata.json stylesheet.css
 # Schema files
@@ -74,6 +77,9 @@ all:
 	@echo "Package for distribution:"
 	@echo "  make dist"
 	@echo "  make distcheck"
+	@echo "Project cleanup targets:"
+	@echo "  make clean"
+	@echo "  make distclean"
 	@echo "Status project:"
 	@echo "  make status"
 
@@ -115,6 +121,10 @@ install: compile
 	  echo "mkdir -p $(DESTDIR)$(PREFSDIR)"; \
 	  mkdir -p $(DESTDIR)$(PREFSDIR); \
 	fi
+	@if ! [ -d  $(DESTDIR)$(IMAGESDIR) ]; then \
+	  echo "mkdir -p $(DESTDIR)$(IMAGESDIR)"; \
+	  mkdir -p $(DESTDIR)$(IMAGESDIR); \
+	fi
 	@if ! [ -d  $(DESTDIR)$(SCHEMASDIR) ]; then \
 	  echo "mkdir -p $(DESTDIR)$(SCHEMASDIR)"; \
 	  mkdir -p $(DESTDIR)$(SCHEMASDIR); \
@@ -130,6 +140,10 @@ install: compile
 	@for f in $(PREFSFILES); do \
 	  echo "cp -f ./src/preferences/$$f $(DESTDIR)$(PREFSDIR)"; \
 	  cp -f ./src/preferences/$$f $(DESTDIR)$(PREFSDIR); \
+	done
+	@for f in $(IMAGESFILES); do \
+	  echo "cp -f ./images/$$f $(DESTDIR)$(IMAGESDIR)"; \
+	  cp -f ./images/$$f $(DESTDIR)$(IMAGESDIR); \
 	done
 	@for f in $(SCHEMASRC) $(SCHEMAOBJ); do \
 	  echo "cp -f $$f $(DESTDIR)$(SCHEMASDIR)"; \
@@ -168,6 +182,7 @@ package:
 	  gnome-extensions pack \
 	  --force \
 	  --podir=../po \
+	  --extra-source=../images \
 	  --extra-source=preferences \
 	  --extra-source=WhoamiButton.js \
 	  --extra-source=MsgDebug.js \
@@ -177,9 +192,10 @@ package:
 	rm -fR ./_pack
 	@echo "Package $(UUID).shell-extension.zip created."
 
-$(pkgtarball): AUTHORS COPYING ChangeLog.md LEAME.md README.md Makefile src po
+$(pkgtarball): AUTHORS COPYING ChangeLog.md LEAME.md README.md Makefile src po images
 	mkdir $(pkgdist)
 	cp -R ./src $(pkgdist)
+	cp -R ./images $(pkgdist)
 	cp -R ./po $(pkgdist)
 	cp AUTHORS COPYING ChangeLog.md LEAME.md README.md Makefile $(pkgdist)
 	find ./$(pkgdist) -type f -name "*~" -exec rm -f {} \;

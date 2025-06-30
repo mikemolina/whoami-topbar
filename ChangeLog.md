@@ -1,3 +1,11 @@
+## Version 5.0
+[2025-06-28]
+
+* Issue [#1](https://github.com/mikemolina/whoami-topbar/issues/1): added link to
+  issues GitHub page in tab _About_ on preferences menu for the extension.
+* Added logo of the extension in tab About on preferences menu for the extension.
+* Added Gnome 48 to shell-version.
+
 ## Version 4.0
 [2024-12-21]
 
