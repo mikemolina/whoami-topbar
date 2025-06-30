@@ -6,8 +6,8 @@
     "settings-schema": "org.gnome.shell.extensions.whoami-topbar",
     "gettext-domain": "whoami-topbar@mikemolina.github.io",
     "shell-version": [
-	"45", "46", "47"
+	"45", "46", "47", "48"
     ],
     "debug": false,
-    "version-name": "4.0"
+    "version-name": "5.0"
 }
