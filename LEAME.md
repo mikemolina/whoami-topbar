@@ -18,9 +18,8 @@ La extensión **GNOME Shell Whoami en el panel superior** requiere
 Actualmente, la extensión **GNOME Shell Whoami en el panel superior**
 ha sido probada con éxito en:
 
-* Ubuntu Noble (24.04)
-* Manjaro Wynsdey (24.0.6)
-* Manjaro Yonada (24.2.0)
+* Ubuntu: Noble (24.04)
+* Manjaro: Wynsdey (24.0.6), Yonada (24.2.0), Zetar (25.0.4)
 
 ### Desde la página GNOME Shell Extensions
 Visite la página [GNOME Shell

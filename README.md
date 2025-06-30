@@ -17,9 +17,8 @@ or higher.
 Currently, **Whoami in top bar GNOME Shell** extension has been successfully
 tested in:
 
-* Ubuntu Noble (24.04)
-* Manjaro Wynsdey (24.0.6)
-* Manjaro Yonada (24.2.0)
+* Ubuntu: Noble (24.04)
+* Manjaro: Wynsdey (24.0.6), Yonada (24.2.0), Zetar (25.0.4)
 
 ### From GNOME Shell Extensions page
 Visit the [GNOME Shell
