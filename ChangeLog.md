@@ -1,3 +1,9 @@
+## Version 6.0
+[2026-01-11]
+
+* Added Gnome 49 to shell-version.
+* Add target maintainer clean (for development).
+
 ## Version 5.0
 [2025-06-28]
 
