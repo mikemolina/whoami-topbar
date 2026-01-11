@@ -5,7 +5,7 @@
 prefix ?= ~/.local
 extname = whoami-topbar
 pkgname = $(extname)
-pkgversion = 5.0
+pkgversion = 6.0
 pkgdist = $(pkgname)-$(pkgversion)
 pkgtarball = $(addsuffix .tar.xz,$(pkgdist))
 pkgtarballsum = $(addsuffix .sha256,$(pkgtarball))
@@ -220,6 +220,9 @@ clean:
 
 distclean:
 	rm -f $(pkgtarball) $(pkgtarballsum)
+
+maintainerclean: clean distclean
+	find . -type f -name "*~" -print0 | xargs -0 rm -f
 
 status:
 	@echo "Status project:"
