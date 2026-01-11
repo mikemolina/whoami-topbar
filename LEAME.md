@@ -19,7 +19,7 @@ Actualmente, la extensión **GNOME Shell Whoami en el panel superior**
 ha sido probada con éxito en:
 
 * Ubuntu: Noble (24.04)
-* Manjaro: Wynsdey (24.0.6), Yonada (24.2.0), Zetar (25.0.4)
+* Manjaro: Wynsdey (24.0.6), Yonada (24.2.0), Zetar (25.0.4), Anh-Linh (26.0)
 
 ### Desde la página GNOME Shell Extensions
 Visite la página [GNOME Shell
@@ -100,7 +100,7 @@ realiza en unos pocos pasos:
 4. Reiniciar la extensión y desde el gestor de extensiones activar el switch de
    personalización.
    
-   ![](imgs/whoami-topbar-Preferences-es.png "Ventana de preferencias")
+   ![](imgs/whoami-topbar-Preferences-es.png "Ventana de preferencias - GNOME 46")
 
 ## Como traducir
 Es recomendable clonar el repositorio y navegar hacia el directorio descargado

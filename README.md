@@ -18,7 +18,7 @@ Currently, **Whoami in top bar GNOME Shell** extension has been successfully
 tested in:
 
 * Ubuntu: Noble (24.04)
-* Manjaro: Wynsdey (24.0.6), Yonada (24.2.0), Zetar (25.0.4)
+* Manjaro: Wynsdey (24.0.6), Yonada (24.2.0), Zetar (25.0.4), Anh-Linh (26.0)
 
 ### From GNOME Shell Extensions page
 Visit the [GNOME Shell
@@ -98,7 +98,7 @@ steps:
 4. Restart the extension and from the extension manager enable the customization
    switch.
    
-   ![](imgs/whoami-topbar-Preferences.png "Preferences window")
+   ![](imgs/whoami-topbar-Preferences.png "Preferences window - GNOME 49")
 
 ## How to translate
 It is recommended to clone the repository and navigate to the downloaded directory
