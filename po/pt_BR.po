@@ -1,5 +1,5 @@
 # Portuguese translations for whoami-topbar package.
-# Copyright (C) 2024-2025 Miguel Molina
+# Copyright (C) 2024-2026 Miguel Molina
 # This file is distributed under the same license as the whoami-topbar package.
 # Automatically generated, 2024.
 #

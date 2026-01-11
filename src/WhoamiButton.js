@@ -2,7 +2,7 @@
  * WhoamiButton.js
  *
  * Whoami top bar GNOME Extension
- * Copyright (C) 2024-2025 Miguel Molina
+ * Copyright (C) 2024-2026 Miguel Molina
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
